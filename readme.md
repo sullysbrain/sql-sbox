@@ -50,6 +50,7 @@ Uninstall the old version (if you want), in my case:
 
 
 
+
 ## List to see if postgres is running
     brew services list
 
