@@ -1,5 +1,7 @@
 # Installation
 
+Notations for SQL work, specifically with PostgreSQL on MacOS / terminal and a bit of linux (ubuntu)
+
     ```
     brew install postgress@16
     ```
@@ -47,7 +49,6 @@ Uninstall the old version (if you want), in my case:
 
 ## Add user "postgres"
     createuser -s postgres
-
 
 
 
