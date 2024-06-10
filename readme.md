@@ -70,3 +70,17 @@ brew uninstall postgresql@14
     \du
 
 
+
+## CLI commands
+
+Run SQL from the command line:
+    psql -U postgres -d sqlda -c "SELECT first_name FROM customers WHERE state = 'AZ'";
+
+Run SQL from a .sql file:
+    psql -U postgres -d sqlda -a -f sqlda_test_main.sql
+
+
+
+# TODO:
+migrate to linux server
+
